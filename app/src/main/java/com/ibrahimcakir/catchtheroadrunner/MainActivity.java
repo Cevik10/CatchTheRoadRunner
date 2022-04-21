@@ -1,6 +1,7 @@
 package com.ibrahimcakir.catchtheroadrunner;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.provider.FontRequest;
 
 import android.os.Bundle;
 
@@ -11,4 +12,5 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+
 }
