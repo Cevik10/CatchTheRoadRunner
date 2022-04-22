@@ -15,10 +15,10 @@
         android:contentDescription="TODO"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintHorizontal_bias="0.397"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/resim" />
 
     <Button
@@ -47,11 +47,11 @@
         android:fontFamily="@font/aclonica"
         android:text="Free Mode"
         android:textColor="#0F052C"
+        android:visibility="invisible"
         app:layout_constraintBottom_toTopOf="@+id/button5"
         app:layout_constraintEnd_toEndOf="@+id/button5"
         app:layout_constraintStart_toStartOf="@+id/button5"
         app:layout_constraintTop_toTopOf="parent"
-        app:rippleColor="@drawable/custom_button"
         tools:ignore="TouchTargetSizeCheck" />
 
     <Button
@@ -64,10 +64,10 @@
         android:fontFamily="@font/aclonica"
         android:text="Arcade mode"
         android:textColor="#0F052C"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button4"
-        app:rippleColor="@drawable/custom_button" />
+        app:layout_constraintTop_toBottomOf="@+id/button4" />
 
     <TextView
         android:id="@+id/textView2"
@@ -84,6 +84,17 @@
         app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="48dp"
+        android:text="start"
+        app:layout_constraintBottom_toTopOf="@+id/button4"
+        app:layout_constraintStart_toStartOf="parent" />
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
