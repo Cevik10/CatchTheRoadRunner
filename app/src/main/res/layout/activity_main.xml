@@ -21,7 +21,7 @@
         app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/resim" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/Exit_button"
         android:layout_width="96dp"
         android:layout_height="52dp"
@@ -35,7 +35,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/FreeMod_button"
         android:layout_width="106dp"
         android:layout_height="82dp"
@@ -46,12 +46,12 @@
         android:fontFamily="@font/aclonica"
         android:text="Free Mode"
         android:textColor="#0F052C"
-        android:visibility="visible"
+        android:visibility="invisible"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ArcadeMod_button"
         tools:ignore="TouchTargetSizeCheck" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/ArcadeMod_button"
         android:layout_width="106dp"
         android:layout_height="82dp"
@@ -61,7 +61,7 @@
         android:fontFamily="@font/aclonica"
         android:text="Arcade mode"
         android:textColor="#0F052C"
-        android:visibility="visible"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
@@ -84,7 +84,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/Start_button"
         android:layout_width="96dp"
         android:layout_height="52dp"
