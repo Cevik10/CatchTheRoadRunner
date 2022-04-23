@@ -18,13 +18,13 @@
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/resim" />
 
-    <androidx.appcompat.widget.AppCompatButton
+    <Button
         android:id="@+id/Exit_button"
-        android:layout_width="96dp"
-        android:layout_height="52dp"
+        android:layout_width="110dp"
+        android:layout_height="60dp"
 
         android:layout_marginEnd="32dp"
         android:layout_marginBottom="32dp"
@@ -35,33 +35,34 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
-    <androidx.appcompat.widget.AppCompatButton
+    <Button
         android:id="@+id/FreeMod_button"
-        android:layout_width="106dp"
-        android:layout_height="82dp"
+        android:layout_width="107dp"
+        android:layout_height="86dp"
 
         android:layout_marginStart="32dp"
         android:layout_marginTop="16dp"
         android:background="@drawable/custom_button2"
         android:fontFamily="@font/aclonica"
+        android:onClick="clicked"
         android:text="Free Mode"
         android:textColor="#0F052C"
-        android:visibility="invisible"
+        android:visibility="visible"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ArcadeMod_button"
         tools:ignore="TouchTargetSizeCheck" />
 
-    <androidx.appcompat.widget.AppCompatButton
+    <Button
         android:id="@+id/ArcadeMod_button"
-        android:layout_width="106dp"
-        android:layout_height="82dp"
+        android:layout_width="107dp"
+        android:layout_height="86dp"
         android:layout_marginStart="32dp"
         android:layout_marginBottom="248dp"
         android:background="@drawable/custom_button2"
         android:fontFamily="@font/aclonica"
         android:text="Arcade mode"
         android:textColor="#0F052C"
-        android:visibility="invisible"
+        android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
@@ -72,11 +73,11 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="28dp"
         android:layout_marginBottom="241dp"
-        android:fontFamily="@font/aclonica"
+        android:fontFamily="@font/fontdiner_swanky"
         android:gravity="center"
         android:text="CATCH THE ROAD RUNNER"
         android:textAlignment="center"
-        android:textColor="#CEFB07"
+        android:textColor="#02752C"
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/ArcadeMod_button"
         app:layout_constraintEnd_toEndOf="parent"
@@ -84,10 +85,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <androidx.appcompat.widget.AppCompatButton
+    <Button
         android:id="@+id/Start_button"
-        android:layout_width="96dp"
-        android:layout_height="52dp"
+        android:layout_width="110dp"
+        android:layout_height="60dp"
 
         android:layout_marginStart="32dp"
         android:layout_marginBottom="32dp"
