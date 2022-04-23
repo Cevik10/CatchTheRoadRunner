@@ -48,7 +48,8 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    public void clicked(View view) {
+
+    public void freeModeClick(View view) {
         Intent intent = new Intent(MainActivity.this,GameScreen.class);
         startActivity(intent);
 

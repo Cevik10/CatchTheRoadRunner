@@ -21,7 +21,7 @@
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/resim" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/Exit_button"
         android:layout_width="110dp"
         android:layout_height="60dp"
@@ -35,7 +35,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/FreeMod_button"
         android:layout_width="107dp"
         android:layout_height="86dp"
@@ -44,7 +44,7 @@
         android:layout_marginTop="16dp"
         android:background="@drawable/custom_button2"
         android:fontFamily="@font/aclonica"
-        android:onClick="clicked"
+        android:onClick="freeModeClick"
         android:text="Free Mode"
         android:textColor="#0F052C"
         android:visibility="visible"
@@ -52,7 +52,7 @@
         app:layout_constraintTop_toBottomOf="@+id/ArcadeMod_button"
         tools:ignore="TouchTargetSizeCheck" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/ArcadeMod_button"
         android:layout_width="107dp"
         android:layout_height="86dp"
@@ -77,7 +77,7 @@
         android:gravity="center"
         android:text="CATCH THE ROAD RUNNER"
         android:textAlignment="center"
-        android:textColor="#02752C"
+        android:textColor="#CEFB07"
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/ArcadeMod_button"
         app:layout_constraintEnd_toEndOf="parent"
@@ -85,7 +85,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/Start_button"
         android:layout_width="110dp"
         android:layout_height="60dp"
