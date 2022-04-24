@@ -47,7 +47,7 @@
         android:onClick="freeModeClick"
         android:text="Free Mode"
         android:textColor="#0F052C"
-        android:visibility="visible"
+        android:visibility="invisible"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ArcadeMod_button"
         tools:ignore="TouchTargetSizeCheck" />
@@ -62,7 +62,7 @@
         android:fontFamily="@font/aclonica"
         android:text="Arcade mode"
         android:textColor="#0F052C"
-        android:visibility="visible"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />

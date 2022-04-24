@@ -10,7 +10,12 @@
         <entry key="..\:/Users/hakan/Desktop/CatchTheRoadRunner/app/src/main/res/font/aclonica.xml" value="0.28020833333333334" />
         <entry key="..\:/Users/hakan/Desktop/CatchTheRoadRunner/app/src/main/res/layout/activity_game_screen.xml" value="0.22780797101449277" />
         <entry key="..\:/Users/hakan/Desktop/CatchTheRoadRunner/app/src/main/res/layout/activity_main.xml" value="0.23799126637554585" />
+        <entry key="app/src/main/res/layout/activity_game_screen.xml" value="0.28125" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.23541870117187502" />
+        <entry key="app/src/main/res/menu/context_menu.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/menu/menu.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/menu/popup.xml" value="0.3367538452148437" />
+        <entry key="app/src/main/res/menu/popup_menu.xml" value="0.3098958333333333" />
       </map>
     </option>
   </component>

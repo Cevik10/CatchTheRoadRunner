@@ -1,7 +1,6 @@
 package com.ibrahimcakir.catchtheroadrunner;
 
 import android.content.Intent;
-import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -20,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        isOpen=true;
+        isOpen = true;
 
         // Locate the buttons in your xml
         start_button = (Button) findViewById(R.id.Start_button);
@@ -35,12 +34,11 @@ public class MainActivity extends AppCompatActivity {
                 if (isOpen) {
                     arcadeMod_button.setVisibility(View.VISIBLE);
                     freeMod_button.setVisibility(View.VISIBLE);
-                    isOpen=false;
-                }
-                else {
+                    isOpen = false;
+                } else {
                     arcadeMod_button.setVisibility(View.INVISIBLE);
                     freeMod_button.setVisibility(View.INVISIBLE);
-                    isOpen=true;
+                    isOpen = true;
 
                 }
 
@@ -48,9 +46,8 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-
     public void freeModeClick(View view) {
-        Intent intent = new Intent(MainActivity.this,GameScreen.class);
+        Intent intent = new Intent(MainActivity.this, GameScreen.class);
         startActivity(intent);
 
     }
