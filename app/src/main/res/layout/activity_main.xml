@@ -28,10 +28,12 @@
 
         android:layout_marginEnd="32dp"
         android:layout_marginBottom="32dp"
-        android:background="@drawable/custom_button"
+        android:background="@drawable/custom_exitbutton"
         android:fontFamily="@font/aclonica"
         android:hapticFeedbackEnabled="false"
+        android:onClick="exit"
         android:text="Exit"
+        android:textColor="#F1EBCD"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -72,16 +74,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="28dp"
-        android:layout_marginBottom="241dp"
         android:fontFamily="@font/fontdiner_swanky"
         android:gravity="center"
         android:text="CATCH THE ROAD RUNNER"
         android:textAlignment="center"
-        android:textColor="#CEFB07"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/ArcadeMod_button"
+        android:textColor="#A9011B5E"
+        android:textSize="40sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -94,6 +94,7 @@
         android:layout_marginBottom="32dp"
         android:background="@drawable/custom_button"
         android:text="@string/start"
+        android:textColor="#082960"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
