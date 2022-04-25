@@ -4,10 +4,14 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/hakan/Desktop/CatchTheRoadRunner/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1905" />
+        <entry key="..\:/Users/hakan/Desktop/CatchTheRoadRunner/app/src/main/res/drawable/back_icon.xml" value="0.1805" />
         <entry key="..\:/Users/hakan/Desktop/CatchTheRoadRunner/app/src/main/res/drawable/custom_button.xml" value="0.2255" />
         <entry key="..\:/Users/hakan/Desktop/CatchTheRoadRunner/app/src/main/res/drawable/custom_button2.xml" value="0.205" />
         <entry key="..\:/Users/hakan/Desktop/CatchTheRoadRunner/app/src/main/res/drawable/custom_exitbutton.xml" value="0.2255" />
         <entry key="..\:/Users/hakan/Desktop/CatchTheRoadRunner/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1905" />
+        <entry key="..\:/Users/hakan/Desktop/CatchTheRoadRunner/app/src/main/res/drawable/menu_popup_shape.xml" value="0.2555" />
+        <entry key="..\:/Users/hakan/Desktop/CatchTheRoadRunner/app/src/main/res/drawable/music_icon.xml" value="0.2555" />
+        <entry key="..\:/Users/hakan/Desktop/CatchTheRoadRunner/app/src/main/res/drawable/popup_icon_shape.xml" value="0.2555" />
         <entry key="..\:/Users/hakan/Desktop/CatchTheRoadRunner/app/src/main/res/drawable/txtclosepopup.xml" value="0.2055" />
         <entry key="..\:/Users/hakan/Desktop/CatchTheRoadRunner/app/src/main/res/font/aclonica.xml" value="0.28020833333333334" />
         <entry key="..\:/Users/hakan/Desktop/CatchTheRoadRunner/app/src/main/res/layout/activity_game_screen.xml" value="0.22780797101449277" />

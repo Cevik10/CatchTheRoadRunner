@@ -50,6 +50,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+
     public void exit(View view) throws InterruptedException {
         Toast.makeText(this, "Good Bye :)", Toast.LENGTH_SHORT).show();
         Thread.sleep(1000);
