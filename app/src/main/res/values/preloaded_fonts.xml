@@ -3,7 +3,11 @@
     <array name="preloaded_fonts" translatable="false">
         <item>@font/aclonica</item>
         <item>@font/akaya_telivigala</item>
+        <item>@font/architects_daughter</item>
+        <item>@font/audiowide</item>
+        <item>@font/baloo_tamma</item>
         <item>@font/beth_ellen</item>
         <item>@font/zcool_kuaile</item>
+        <item>@font/zcool_qingke_huangyou</item>
     </array>
 </resources>

@@ -4,22 +4,25 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/hakan/Desktop/CatchTheRoadRunner/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1905" />
-        <entry key="..\:/Users/hakan/Desktop/CatchTheRoadRunner/app/src/main/res/drawable/back_icon.xml" value="0.1805" />
         <entry key="..\:/Users/hakan/Desktop/CatchTheRoadRunner/app/src/main/res/drawable/custom_button.xml" value="0.2255" />
         <entry key="..\:/Users/hakan/Desktop/CatchTheRoadRunner/app/src/main/res/drawable/custom_button2.xml" value="0.205" />
-        <entry key="..\:/Users/hakan/Desktop/CatchTheRoadRunner/app/src/main/res/drawable/custom_exitbutton.xml" value="0.2255" />
         <entry key="..\:/Users/hakan/Desktop/CatchTheRoadRunner/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1905" />
-        <entry key="..\:/Users/hakan/Desktop/CatchTheRoadRunner/app/src/main/res/drawable/menu_popup_shape.xml" value="0.2555" />
-        <entry key="..\:/Users/hakan/Desktop/CatchTheRoadRunner/app/src/main/res/drawable/music_icon.xml" value="0.2555" />
-        <entry key="..\:/Users/hakan/Desktop/CatchTheRoadRunner/app/src/main/res/drawable/popup_icon_shape.xml" value="0.2555" />
-        <entry key="..\:/Users/hakan/Desktop/CatchTheRoadRunner/app/src/main/res/drawable/txtclosepopup.xml" value="0.2055" />
         <entry key="..\:/Users/hakan/Desktop/CatchTheRoadRunner/app/src/main/res/font/aclonica.xml" value="0.28020833333333334" />
         <entry key="..\:/Users/hakan/Desktop/CatchTheRoadRunner/app/src/main/res/layout/activity_game_screen.xml" value="0.22780797101449277" />
         <entry key="..\:/Users/hakan/Desktop/CatchTheRoadRunner/app/src/main/res/layout/activity_main.xml" value="0.23799126637554585" />
-        <entry key="..\:/Users/hakan/Desktop/CatchTheRoadRunner/app/src/main/res/layout/popupwindow.xml" value="0.264" />
-        <entry key="..\:/Users/hakan/Desktop/CatchTheRoadRunner/app/src/main/res/menu/popup_menu.xml" value="0.2" />
-        <entry key="app/src/main/res/layout/activity_game_screen.xml" value="0.28125" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.23541870117187502" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1585" />
+        <entry key="app/src/main/res/drawable/custom_button.xml" value="0.1585" />
+        <entry key="app/src/main/res/drawable/custom_button2.xml" value="0.1585" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1585" />
+        <entry key="app/src/main/res/font/aclonica.xml" value="0.2756437315322921" />
+        <entry key="app/src/main/res/font/akaya_telivigala.xml" value="0.2756437315322921" />
+        <entry key="app/src/main/res/font/architects_daughter.xml" value="0.2756437315322921" />
+        <entry key="app/src/main/res/font/beth_ellen.xml" value="0.2756437315322921" />
+        <entry key="app/src/main/res/font/fontdiner_swanky.xml" value="0.2756437315322921" />
+        <entry key="app/src/main/res/layout-large/tablet.xml" value="0.11853448275862069" />
+        <entry key="app/src/main/res/layout/activity_game_screen.xml" value="0.1738021850585938" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.21848297119140628" />
+        <entry key="app/src/main/res/layout/popupwindow.xml" value="0.165" />
         <entry key="app/src/main/res/menu/context_menu.xml" value="0.3098958333333333" />
         <entry key="app/src/main/res/menu/menu.xml" value="0.3098958333333333" />
         <entry key="app/src/main/res/menu/popup.xml" value="0.3367538452148437" />
@@ -32,5 +35,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.15021972656250004" />
+      </ProjectState>
+    </option>
   </component>
 </project>

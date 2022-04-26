@@ -6,21 +6,64 @@
     android:layout_height="match_parent"
     tools:context=".GameScreen">
 
+
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/showPopup_button"
-        android:layout_width="56dp"
+        android:layout_width="60dp"
         android:layout_height="50dp"
 
 
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="16dp"
-
-
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="20dp"
         android:background="@drawable/popup_icon_shape"
         android:foreground="@drawable/menu_icon"
-        android:hint="u"
         android:onClick="showPopup"
+        app:layout_constraintBottom_toTopOf="@+id/progressBar"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="188dp"
+        android:background="#4A4A4A"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></View>
+
+    <ProgressBar
+
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="20dp"
+        android:background="#7589F6"
+        android:max="100"
+        android:progress="0"
+        android:progressBackgroundTint="#3F51B5"
+        android:progressBackgroundTintMode="src_over"
+        app:layout_constraintBottom_toTopOf="@+id/timeText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+    </ProgressBar>
+
+    <TextView
+        android:id="@+id/timeText"
+        android:layout_width="98dp"
+        android:layout_height="37dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="20dp"
+        android:background="#ecf8ff"
+        android:text=""
+        android:textColor="#000"
+        app:layout_constraintBottom_toTopOf="@+id/view"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
