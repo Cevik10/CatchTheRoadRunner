@@ -7,7 +7,7 @@
     tools:context=".GameScreen">
 
 
-    <androidx.appcompat.widget.AppCompatButton
+    <ImageButton
         android:id="@+id/showPopup_button"
         android:layout_width="60dp"
         android:layout_height="50dp"
@@ -15,12 +15,13 @@
 
         android:layout_marginEnd="24dp"
         android:layout_marginBottom="20dp"
+        app:srcCompat="@drawable/menu_icon"
         android:background="@drawable/popup_icon_shape"
-        android:foreground="@drawable/menu_icon"
+
         android:onClick="showPopup"
         app:layout_constraintBottom_toTopOf="@+id/progressBar"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:ignore="SpeakableTextPresentCheck" />
+        android:contentDescription="@string/app_name"/>
 
     <View
         android:id="@+id/view"

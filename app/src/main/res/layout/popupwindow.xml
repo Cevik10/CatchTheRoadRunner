@@ -2,15 +2,14 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
 
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
 
 
     android:layout_marginVertical="320dp"
 
-    android:layout_marginRight="50dp"
     android:layout_marginLeft="50dp"
+    android:layout_marginRight="50dp"
 
 
     android:background="#4760ED"
@@ -21,11 +20,11 @@
 
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/textClose"
-        android:layout_width="39dp"
+        android:layout_width="35dp"
         android:layout_height="35dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:background="@drawable/txtclosepopup"
+        android:background="@drawable/custom_exitbutton"
         android:gravity="center"
         android:text="X"
         android:textColor="#01030C"
@@ -34,43 +33,39 @@
         android:textStyle="bold" />
 
     <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="142dp"
+        android:layout_width="185dp"
+        android:layout_height="88dp"
         android:layout_alignParentBottom="true"
         android:layout_centerInParent="true"
-        android:layout_marginBottom="46dp"
+        android:layout_marginBottom="0dp"
         android:orientation="horizontal">
 
 
-        <androidx.appcompat.widget.AppCompatButton
-
-            android:id="@+id/button3"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:layout_alignParentStart="true"
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/backButton"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
             android:layout_gravity="center"
-
-
             android:layout_margin="5dp"
 
             android:background="@drawable/popup_icon_shape"
-            android:foreground="@drawable/back_icon"
 
-            />
 
-        <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/button4"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:layout_alignParentStart="true"
+            app:srcCompat="@drawable/back_icon"
+
+            android:contentDescription="@string/app_name"/>
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/musicButton"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
             android:layout_gravity="center"
             android:layout_margin="5dp"
 
 
             android:background="@drawable/popup_icon_shape"
-
-
-            android:foreground="@drawable/music_icon" />
+            android:contentDescription="@string/app_name"
+            app:srcCompat="@drawable/music_icon" />
     </LinearLayout>
 
 
