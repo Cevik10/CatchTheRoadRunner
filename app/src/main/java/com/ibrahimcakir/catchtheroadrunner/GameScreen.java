@@ -40,7 +40,7 @@ public class GameScreen extends AppCompatActivity {
         myDialog = new Dialog(this);
 
         final int[] i = {0};
-        timeText = (TextView) findViewById(R.id.timeText);
+        timeText =findViewById(R.id.timeText);
         mProgressBar = (ProgressBar) findViewById(R.id.progressBar);
         mProgressBar.setProgress(i[0]);
 
@@ -50,7 +50,7 @@ public class GameScreen extends AppCompatActivity {
             public void onTick(long millisUntilFinished) {
                 Log.v("Log_tag", "Tick of Progress" + i[0] + millisUntilFinished);
                 i[0]++;
-                mProgressBar.setProgress((int) i[0] * 100 / (10000 / 1000));
+                mProgressBar.setProgress(i[0] * 100 / (10000 / 1000));
                 timeText.setText("Seconds remaining: " + millisUntilFinished / 1000);
             }
 
